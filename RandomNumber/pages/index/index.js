@@ -22,7 +22,7 @@ Page({
     while (!getOneResult)
     {
       result = minInt + Math.floor(Math.random() * (maxInt - minInt + 1));
-      console.log("result=" + result);
+      //console.log("result=" + result);
       
       if (isNaN(result)) {
          resultStr = "参数出错！";
