@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<input id="minValue" type="digit" placeholder="输入最小值" bindchange="bindChange" />
+<input id="maxValue" type="digit" placeholder="输入最大值" bindchange="bindChange" />
+<switch id="canRepeat" bindchange="bindChange"/>是否允许重复？
+<button type="primary" size="default" bindtap="bindPrimaryTap"> 生成随机数 </button>
+<button type="default" size="default" bindtap="bindClearTap"> 清空结果 </button>
+<view class="body-view">
+  <!--text>{{result}}</text-->
+  <text>{{text}}</text>
+</view>
